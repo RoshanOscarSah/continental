@@ -42,10 +42,10 @@ body, html {
   
   .body1 {
     /* The image used */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url("../image/kia.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.99) ), url("../image/kia.jpg");
   
     /* Full height */
-    height: 100%; 
+    min-height: 100%; 
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -78,3 +78,39 @@ body, html {
         width: 80%;
     }
   }
+
+  /* body2 */
+
+.body2{
+  min-height: 100%;
+}
+
+.body2a{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding:25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: large;
+  min-height: 300px;
+  cursor: pointer;
+}
+
+.imageWidth{
+  width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.product{
+  margin-top: 10px;
+  font-size: 43px;
+}
+
+.productPsize{
+  font-size: 16px;
+}
