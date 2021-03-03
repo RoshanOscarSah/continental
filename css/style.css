@@ -37,6 +37,10 @@ body, html {
     margin-right: 50px;
 }
 
+.mt-50{
+  margin-top: 50px;
+}
+
 /* home body 1 */
 
   
@@ -72,12 +76,19 @@ body, html {
 }
 
 
+@media only screen and (min-width: 1150px) {
+  .navwebmargin{
+    margin-left: 140px; 
+  }
+}
+
 @media only screen and (max-width: 1150px) {
     .body1a{
         margin: 50px 0px 0px 20px;
         width: 80%;
     }
-  }
+
+}
 
   /* body2 */
 
@@ -113,4 +124,26 @@ body, html {
 
 .productPsize{
   font-size: 16px;
+}
+
+/* body3 */
+.chooseus{
+  margin-top: 10px;
+  font-size: 43px;
+  color: white;
+}
+
+.colorYellow{
+  color: #D79922;
+}
+
+.colorYellow:hover{
+  color:white;
+  cursor: pointer;
+}
+
+
+.awesomeCss{
+  font-size: 50px;
+  margin: auto;
 }
