@@ -1,0 +1,80 @@
+/* font */
+  @font-face {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/font/Sofia/SofiaProRegularAz.otf");
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro Light';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/font/Sofia/SofiaProLightAz.otf");
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro Bold';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/font/Sofia/SofiaProBlackAz.otf");
+  }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #C5CBE3;
+    font-family: 'sofia Pro';
+  }
+
+/* nav */
+.navLeft{
+    margin-right: 200px;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
+/* home body 1 */
+
+  
+  .body1 {
+    /* The image used */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url("../image/kia.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .body1 {
+    color: white;
+}
+
+.body1a{
+    margin: 250px 0px 0px 150px;
+    width: 50%;
+}
+
+.body1a p{
+    font-size: 20px;
+}
+
+.btnbody1{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .body1a{
+        margin: 50px 0px 0px 20px;
+        width: 80%;
+    }
+  }
