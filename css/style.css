@@ -140,8 +140,8 @@ body, html {
 
 /* body 4 */
 .body4{
-  min-height: 500px;
-  background-color: #202020;
+  min-height: 60%;
+  background-color: #D79922;
 }
 
 .box {
@@ -181,14 +181,14 @@ body, html {
 }
 
 .message{
-  margin-top: 50px;
-  font-size: 43px;
+  margin-top: 30px;
+  font-size: 38px;
 }
 
 .mesageBlock{
   margin: auto;
   border-radius: 20px;
-  max-width: 60%;
+  max-width: 85%;
   min-height: 520px;
   border-style: solid;
   border-color: #007BFF;
@@ -202,6 +202,37 @@ body, html {
   border-radius: 20px 20px 0px 0px;
 }
 
+
+/* body 6 footer */
+.body6{
+  min-height: 40%;
+  background-color: #202020;
+}
+
+.socioicon{
+  font-size: 36px;
+}
+
+.faicon-facebook, .faicon-twitter, .faicon-dribble, .faicon-linkedin{
+  color: #fff;
+}
+
+
+.faicon-facebook:hover{
+  color: #3b5998 ;
+}
+
+.faicon-twitter:hover{
+  color: #00acee ;
+}
+
+.faicon-dribble:hover{
+  color: #ea4c89 ;
+}
+
+.faicon-linkedin:hover{
+  color: #0e76a8 ;
+}
 
 
 
