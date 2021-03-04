@@ -3,21 +3,21 @@
     font-family: 'Sofia Pro';
     font-style: normal;
     font-weight: 100;
-    src: url("/font/Sofia/SofiaProRegularAz.otf");
+    src: url("../font/Sofia/SofiaProRegularAz.otf");
   }
 
   @font-face {
     font-family: 'Sofia Pro Light';
     font-style: normal;
     font-weight: 100;
-    src: url("/font/Sofia/SofiaProLightAz.otf");
+    src: url("../font/Sofia/SofiaProLightAz.otf");
   }
 
   @font-face {
     font-family: 'Sofia Pro Bold';
     font-style: normal;
     font-weight: 100;
-    src: url("/font/Sofia/SofiaProBlackAz.otf");
+    src: url("../font/Sofia/SofiaProBlackAz.otf");
   }
 
 
@@ -123,6 +123,18 @@ body, html {
   color: #D79922;
 }
 
+.btn-Yellow {
+  color: #fff;
+  background-color: #D79922;
+  border-color: #D79922;
+}
+
+.btn-Yellow:hover {
+  color: #fff;
+  background-color: #ffa600;
+  border-color: #ffa600;
+}
+
 .colorYellow:hover{
   color:white;
   cursor: pointer;
@@ -191,7 +203,7 @@ body, html {
   max-width: 85%;
   min-height: 520px;
   border-style: solid;
-  border-color: #007BFF;
+  border-color: #D79922;
 }
 
 .messageRow{
@@ -199,7 +211,7 @@ body, html {
 }
 
 .imageCurve{
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 17px 17px 0px 0px;
 }
 
 

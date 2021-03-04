@@ -23,7 +23,7 @@
     <div class="body1">
     <!-- nav  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand navwebmargin" href="#">Continental</a>
+  <a class="navbar-brand navwebmargin " href="#">Continental</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -69,11 +69,11 @@
 <article class="container body1a">
     <div class="row mt-2 justify-content-center">
         <h1 class="col-12 m-md-3">Continental Trading Pvt.Ltd<br>
-            <span class="text-primary h3">Welcome</span> To Our Site</h1>
+            <span class="colorYellow h3">Welcome</span> To Our Site</h1>
         <p class="col-12 m-md-3">
             We represent famous brands like Komatsu construction and mining equipments, Kia passenger vehicles, Otis elevators and drilling equipments like Furukawa. We also have our stake in manufacturing concerns, financial institutions and housing development.
         </p>
-        <div class="col-12 m-md-3"><button type="button" class="btn btn-primary btnbody1">Learn More</button></div>
+        <div class="col-12 m-md-3"><a href="#section2" id="section"><button type="button"  class="btn btn-Yellow btnbody1" >Learn More</button></a></div>
     </div>
 </article>
 
@@ -82,9 +82,9 @@
 </div>
 
 <!-- body2 -->
-<div class="container body2">
+<div class="container body2" id="section2">
   <div class="row ">
-    <div class="col-12 text-center" ><H2 class="font-weight-bold text-primary product">PRODUCTS</H2></div>
+    <div class="col-12 text-center" ><H2 class="font-weight-bold colorYellow product">PRODUCTS</H2></div>
   </div>
   <div class="row mt-4">
     <div class="col-md-4">
@@ -232,7 +232,7 @@
 <div class="body5">
   <Div class="container">
     <div class="row ">
-      <div class="col-12 text-center" ><H2 class="font-weight-bold text-primary message">Message From The Continental Team</H2></div>
+      <div class="col-12 text-center" ><H2 class="font-weight-bold colorYellow message">Message From The Continental Team</H2></div>
     </div>
 
     <div class="row messageRow">
@@ -369,8 +369,8 @@
               </p> 
           </div>
 
-          <div class="col-12">
-            <p class="font-weight-bold mr-50 colorYellow">Follow Us<br>
+          <div class="col-12 mb-4">
+            <div class="font-weight-bold mr-50 colorYellow">Follow Us</div>
               <div class=" row socioicon mr-50 ">
       
                 <div class="col-12">
@@ -384,7 +384,6 @@
                 </div>
               
               </div>
-              </p>
             </div>
           
           </div>
@@ -418,20 +417,58 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Continental JS -->
     <script src="js/script.js"></script>
 
 
+
+
+  <!-- Close Navbar when clicked outside -->
     <script>
-     // Close Navbar when clicked outside
-$(window).on('click', function(event){
-    // element over which click was made
-    var clickOver = $(event.target)
-    if ($('.navbar .navbar-toggler').attr('aria-expanded') == 'true' && clickOver.closest('.navbar').length === 0) {
-        // Click on navbar toggler button
-        $('button[aria-expanded="true"]').click();
-    }
-});
+      $(window).on('click', function(event){
+          // element over which click was made
+          var clickOver = $(event.target)
+          if ($('.navbar .navbar-toggler').attr('aria-expanded') == 'true' && clickOver.closest('.navbar').length === 0) {
+              // Click on navbar toggler button
+              $('button[aria-expanded="true"]').click();
+          }
+      });
    </script>
+
+
+<!-- smooth scroll  -->
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("#section").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
   </body>
 </html>
