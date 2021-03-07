@@ -321,6 +321,10 @@ input[type=submit]:hover {
 
 
 /* about page  */
+.body7{
+  background-image: linear-gradient(to right top, #05003a, #240030, #310024, #380019, #3a000d);
+}
+
 .imageCurve1{
   border-radius: 17px 0px 0px 0px;
 }
@@ -332,6 +336,10 @@ input[type=submit]:hover {
   min-height: 300px;
   border-style: solid;
   border-color: #D79922;
+}
+
+.noVacancy{
+  font-size: 90px;
 }
 
 /* PRODUCT PAGE  */
