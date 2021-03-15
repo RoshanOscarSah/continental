@@ -303,7 +303,7 @@ input[type=submit]:hover {
 .gmaps{
   width: 100%;
   height: 100%;
-  min-height: 300px;
+  min-height: 500px;
   padding: 20px 0px 20px 0px;
 }
 
@@ -319,6 +319,20 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+
+.body4d{
+  min-height: 60%;
+}
+
+.body9{
+  min-height: 100%;
+  background-color: #D79922;
+}
+
+.halfyellow{
+  min-height: 100%;
+  background-color: #D79922;
+}
 
 /* about page  */
 .body7{
@@ -348,6 +362,14 @@ input[type=submit]:hover {
   min-height: 50%;
   background-color: #2d3135;
 }
+
+
+/* HIRING PAGE  */
+.body8{
+  min-height: 100%;
+  background-image: linear-gradient(to right top, #05003a, #240030, #310024, #380019, #3a000d);
+}
+
 
 
 
