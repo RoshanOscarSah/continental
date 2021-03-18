@@ -1,23 +1,23 @@
 /* font */
   @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 100;
-    src: url("../font/Sofia/SofiaProRegularAz.otf");
+    src: url("../font/Helvetica_Font/Helvetica.ttf");
   }
 
   @font-face {
-    font-family: 'Sofia Pro Light';
+    font-family: 'Helvetica Light';
     font-style: normal;
     font-weight: 100;
-    src: url("../font/Sofia/SofiaProLightAz.otf");
+    src: url("../font/Helvetica_Font/helvetica_light.ttf");
   }
 
   @font-face {
-    font-family: 'Sofia Pro Bold';
+    font-family: 'Helvetica Bold';
     font-style: normal;
     font-weight: 100;
-    src: url("../font/Sofia/SofiaProBlackAz.otf");
+    src: url("../font/Helvetica_Font/Helvetica_Bold.ttf");
   }
 
 
@@ -25,7 +25,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #C5CBE3;
-    font-family: 'sofia Pro';
+    font-family: 'Helvetica';
   }
 
 /* nav */
