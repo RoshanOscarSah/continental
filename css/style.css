@@ -46,7 +46,8 @@ body, html {
   
   .body1 {
     /* The image used */
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.99) ), url("../image/kia.jpg");
+    /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.99) ), url("../image/kia.jpg"); */
+    background: linear-gradient( rgb(227 242 253 / 5%), rgba(0, 0, 0, 0.99) ), url(../image/kia.jpg);
   
     /* Full height */
     min-height: 100%; 
